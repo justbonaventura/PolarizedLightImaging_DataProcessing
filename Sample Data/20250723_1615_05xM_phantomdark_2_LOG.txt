@@ -1,0 +1,324 @@
+4:15:26 PM.859 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement start]
+4:15:26 PM.863 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean Initialize()                                                                ,[Light source initialization]COM port=COM4
+4:15:27 PM.080 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Polarizer driven]
+4:15:27 PM.081 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:15:27 PM.084 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=180, offset=-204.8
+4:15:27 PM.100 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=335.2
+4:15:27 PM.102 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waveplate driven]
+4:15:27 PM.105 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:15:27 PM.108 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=180, offset=-222.9
+4:15:32 PM.629 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=317.1
+4:15:32 PM.735 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after motor setting]
+4:15:32 PM.739 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=446
+4:15:32 PM.812 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Red, intensity=255
+4:15:32 PM.922 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Red
+4:15:33 PM.131 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:33 PM.132 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Dark image acquisition]
+4:15:33 PM.137 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:33 PM.252 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:15:33 PM.944 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Red
+4:15:34 PM.154 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:34 PM.155 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:15:34 PM.160 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:15:34 PM.784 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:15:34 PM.844 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:34 PM.954 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=251
+4:15:35 PM.029 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Green, intensity=255
+4:15:35 PM.138 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Green
+4:15:35 PM.348 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:35 PM.349 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Dark image acquisition]
+4:15:35 PM.357 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:35 PM.476 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:15:35 PM.925 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Green
+4:15:36 PM.134 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:36 PM.135 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:15:36 PM.145 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:15:36 PM.561 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:15:36 PM.618 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:36 PM.729 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=715
+4:15:36 PM.804 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Cyan, intensity=255
+4:15:36 PM.912 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Cyan
+4:15:37 PM.122 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:37 PM.123 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Dark image acquisition]
+4:15:37 PM.133 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:37 PM.251 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:15:38 PM.156 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Cyan
+4:15:38 PM.365 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:38 PM.366 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:15:38 PM.379 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:15:39 PM.293 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:15:39 PM.356 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:39 PM.466 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=1000
+4:15:39 PM.539 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Blue, intensity=255
+4:15:39 PM.648 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Blue
+4:15:39 PM.857 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:39 PM.858 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Dark image acquisition]
+4:15:39 PM.873 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:40 PM.000 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:15:41 PM.221 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Blue
+4:15:41 PM.431 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:41 PM.432 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:15:41 PM.451 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:15:42 PM.651 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:15:42 PM.719 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:42 PM.829 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=10000
+4:15:42 PM.901 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Violet, intensity=255
+4:15:43 PM.011 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Violet
+4:15:43 PM.221 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:15:43 PM.222 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Dark image acquisition]
+4:15:43 PM.246 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:15:43 PM.375 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=4
+4:16:23 PM.739 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Violet
+4:16:23 PM.948 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:16:23 PM.949 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:16:23 PM.967 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=4
+4:17:04 PM.326 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:17:04 PM.381 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:17:04 PM.491 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Polarizer driven]
+4:17:04 PM.492 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:17:04 PM.514 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=90, offset=-204.8
+4:17:15 PM.276 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=245.2
+4:17:15 PM.277 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waveplate driven]
+4:17:15 PM.299 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:17:15 PM.316 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=90, offset=-222.9
+4:17:26 PM.090 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=227.1
+4:17:26 PM.192 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after motor setting]
+4:17:26 PM.208 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=446
+4:17:26 PM.282 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Red, intensity=255
+4:17:26 PM.392 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Red
+4:17:26 PM.601 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:17:26 PM.602 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:17:26 PM.621 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:17:27 PM.227 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:17:27 PM.283 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:17:27 PM.393 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=251
+4:17:27 PM.467 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Green, intensity=255
+4:17:27 PM.575 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Green
+4:17:27 PM.785 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:17:27 PM.786 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:17:27 PM.806 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:17:28 PM.228 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:17:28 PM.290 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:17:28 PM.402 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=715
+4:17:28 PM.475 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Cyan, intensity=255
+4:17:28 PM.585 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Cyan
+4:17:28 PM.794 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:17:28 PM.795 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:17:28 PM.822 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:17:29 PM.754 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:17:29 PM.812 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:17:29 PM.922 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=1000
+4:17:29 PM.996 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Blue, intensity=255
+4:17:30 PM.105 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Blue
+4:17:30 PM.314 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:17:30 PM.315 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:17:30 PM.341 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:17:31 PM.517 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:17:31 PM.580 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:17:31 PM.690 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=10000
+4:17:31 PM.763 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Violet, intensity=255
+4:17:31 PM.872 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Violet
+4:17:32 PM.082 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:17:32 PM.082 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:17:32 PM.112 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=4
+4:18:12 PM.488 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:18:12 PM.543 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:18:12 PM.653 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Polarizer driven]
+4:18:12 PM.656 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:18:12 PM.697 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=135, offset=-204.8
+4:18:18 PM.242 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=290.2
+4:18:18 PM.243 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waveplate driven]
+4:18:18 PM.278 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:18:18 PM.308 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=135, offset=-222.9
+4:18:23 PM.853 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=272.1
+4:18:23 PM.954 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after motor setting]
+4:18:23 PM.982 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=446
+4:18:24 PM.055 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Red, intensity=255
+4:18:24 PM.164 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Red
+4:18:24 PM.373 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:18:24 PM.374 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:18:24 PM.408 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:18:25 PM.042 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:18:25 PM.102 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:18:25 PM.213 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=251
+4:18:25 PM.290 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Green, intensity=255
+4:18:25 PM.398 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Green
+4:18:25 PM.610 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:18:25 PM.611 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:18:25 PM.637 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:18:26 PM.083 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:18:26 PM.141 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:18:26 PM.249 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=715
+4:18:26 PM.325 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Cyan, intensity=255
+4:18:26 PM.434 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Cyan
+4:18:26 PM.643 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:18:26 PM.643 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:18:26 PM.686 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:18:27 PM.576 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:18:27 PM.635 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:18:27 PM.745 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=1000
+4:18:27 PM.820 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Blue, intensity=255
+4:18:27 PM.929 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Blue
+4:18:28 PM.138 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:18:28 PM.139 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:18:28 PM.177 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:18:29 PM.366 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:18:29 PM.425 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:18:29 PM.533 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=10000
+4:18:29 PM.608 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Violet, intensity=255
+4:18:29 PM.717 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Violet
+4:18:29 PM.926 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:18:29 PM.926 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:18:29 PM.964 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=4
+4:19:10 PM.350 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:19:10 PM.405 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:19:10 PM.518 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Polarizer driven]
+4:19:10 PM.519 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:19:10 PM.563 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=225, offset=-204.8
+4:19:20 PM.614 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=20.2
+4:19:20 PM.614 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waveplate driven]
+4:19:20 PM.664 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:19:20 PM.707 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=225, offset=-222.9
+4:19:30 PM.778 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=2.1
+4:19:30 PM.879 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after motor setting]
+4:19:30 PM.922 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=446
+4:19:30 PM.995 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Red, intensity=255
+4:19:31 PM.104 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Red
+4:19:31 PM.313 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:19:31 PM.313 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:19:31 PM.366 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:19:32 PM.058 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:19:32 PM.128 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:19:32 PM.238 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=251
+4:19:32 PM.313 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Green, intensity=255
+4:19:32 PM.422 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Green
+4:19:32 PM.632 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:19:32 PM.633 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:19:32 PM.688 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:19:33 PM.141 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:19:33 PM.207 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:19:33 PM.324 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=715
+4:19:33 PM.398 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Cyan, intensity=255
+4:19:33 PM.507 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Cyan
+4:19:33 PM.717 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:19:33 PM.717 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:19:33 PM.768 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:19:34 PM.684 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:19:34 PM.744 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:19:34 PM.864 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=1000
+4:19:34 PM.938 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Blue, intensity=255
+4:19:35 PM.047 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Blue
+4:19:35 PM.257 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:19:35 PM.257 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:19:35 PM.307 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:19:36 PM.515 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:19:36 PM.570 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:19:36 PM.693 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=10000
+4:19:36 PM.769 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Violet, intensity=255
+4:19:36 PM.877 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Violet
+4:19:37 PM.087 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:19:37 PM.087 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:19:37 PM.142 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=4
+4:20:17 PM.542 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:20:17 PM.604 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:20:17 PM.731 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Polarizer driven]
+4:20:17 PM.732 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:20:17 PM.794 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=180, offset=-204.8
+4:20:24 PM.106 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=335.2
+4:20:24 PM.106 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waveplate driven]
+4:20:24 PM.161 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:20:24 PM.218 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=225, offset=-222.9
+4:20:24 PM.286 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=2.1
+4:20:24 PM.421 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after motor setting]
+4:20:24 PM.469 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=446
+4:20:24 PM.543 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Red, intensity=255
+4:20:24 PM.652 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Red
+4:20:24 PM.861 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:20:24 PM.861 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:20:24 PM.909 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:20:25 PM.556 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:20:25 PM.613 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:20:25 PM.750 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=251
+4:20:25 PM.823 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Green, intensity=255
+4:20:25 PM.932 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Green
+4:20:26 PM.141 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:20:26 PM.141 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:20:26 PM.205 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:20:26 PM.661 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:20:26 PM.711 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:20:26 PM.851 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=715
+4:20:26 PM.927 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Cyan, intensity=255
+4:20:27 PM.036 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Cyan
+4:20:27 PM.246 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:20:27 PM.246 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:20:27 PM.309 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:20:28 PM.231 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:20:28 PM.290 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:20:28 PM.418 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=1000
+4:20:28 PM.493 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Blue, intensity=255
+4:20:28 PM.601 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Blue
+4:20:28 PM.811 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:20:28 PM.811 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:20:28 PM.876 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:20:30 PM.088 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:20:30 PM.145 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:20:30 PM.285 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=10000
+4:20:30 PM.358 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Violet, intensity=255
+4:20:30 PM.477 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Violet
+4:20:30 PM.687 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:20:30 PM.687 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:20:30 PM.757 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=4
+4:21:11 PM.164 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:21:11 PM.223 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:21:11 PM.356 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Polarizer driven]
+4:21:11 PM.357 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:21:11 PM.416 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=180, offset=-204.8
+4:21:11 PM.493 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=335.2
+4:21:11 PM.546 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waveplate driven]
+4:21:11 PM.617 ,PRM  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetVelocityParameter()                                                      ,[Motor speed setting]velocity=10.0, acceleration=10.0
+4:21:11 PM.683 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor driven]angle=135, offset=-222.9
+4:21:22 PM.496 ,SEQ  ,Polarimeter  ,Polarimeter.MotorController   ,Boolean SetPosition(System.Decimal)                                                 ,[Motor drive completion]angle=272.1
+4:21:22 PM.598 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after motor setting]
+4:21:22 PM.663 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=446
+4:21:22 PM.737 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Red, intensity=255
+4:21:22 PM.845 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Red
+4:21:23 PM.055 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:21:23 PM.055 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:21:23 PM.132 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:21:23 PM.811 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:21:23 PM.862 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:21:23 PM.999 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=251
+4:21:24 PM.073 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Green, intensity=255
+4:21:24 PM.181 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Green
+4:21:24 PM.391 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:21:24 PM.391 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:21:24 PM.456 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:21:24 PM.911 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:21:24 PM.962 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:21:25 PM.099 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=715
+4:21:25 PM.173 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Cyan, intensity=255
+4:21:25 PM.282 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Cyan
+4:21:25 PM.491 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:21:25 PM.491 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:21:25 PM.565 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:21:26 PM.496 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:21:26 PM.553 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:21:26 PM.691 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=1000
+4:21:26 PM.767 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Blue, intensity=255
+4:21:26 PM.876 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Blue
+4:21:27 PM.085 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:21:27 PM.085 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:21:27 PM.138 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=1
+4:21:28 PM.341 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:21:28 PM.390 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:21:28 PM.533 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean SetExposureTime(Double)                                                     ,[Camera exposure time setting]exposure time=10000
+4:21:28 PM.607 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetIntensity(Polarimeter.Color, Byte)                                       ,[Light source intensity setting]color=Violet, intensity=255
+4:21:28 PM.716 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean SetColorOn(Polarimeter.Color)                                               ,[Light channel on]color=Violet
+4:21:28 PM.925 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Waiting after light source setting]
+4:21:28 PM.925 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Measurement image acquisition]
+4:21:28 PM.981 ,SEQ  ,Polarimeter  ,Polarimeter.CameraController  ,Boolean GetAveragingImage(Int32)                                                    ,[Camera calculate average image]number of image to average=4
+4:22:09 PM.400 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[Save averaged image]
+4:22:09 PM.462 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:22:09 PM.605 ,SEQ  ,Polarimeter  ,Polarimeter.LightSourceController,Boolean AllOff()                                                                    ,[All light channels off]
+4:22:09 PM.713 ,SEQ  ,Polarimeter  ,Polarimeter.Analyzer          ,Boolean Run(System.String)                                                          ,[Analysis execution]
+4:22:09 PM.783 ,SEQ  ,Polarimeter  ,Polarimeter.MainWindow        ,Void MeasurementWorkerDoWork(System.Object, System.ComponentModel.DoWorkEventArgs)  ,[End of measurement]

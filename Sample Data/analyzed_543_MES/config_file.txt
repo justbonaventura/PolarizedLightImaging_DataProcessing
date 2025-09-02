@@ -1,0 +1,16 @@
+FolderName : analyzed_543_MES
+Parameter  : 180 150 150 0.40 195 0.500
+Aperture   : 1035.5 962.2 674.9
+File:
+  REF        C:\Polarimeter\Expdata\20250723_1516_05xM_epi_diffuser_LP30_800umdown_REFERENCE\543_150_150_REF.tif
+  LHP        C:\Polarimeter\Expdata\20250723_1615_05xM_phantomdark_2\543_180_180_MES.tif
+  LVP        C:\Polarimeter\Expdata\20250723_1615_05xM_phantomdark_2\543_090_090_MES.tif
+  45P        C:\Polarimeter\Expdata\20250723_1615_05xM_phantomdark_2\543_135_135_MES.tif
+  RCP        C:\Polarimeter\Expdata\20250723_1615_05xM_phantomdark_2\543_180_225_MES.tif
+  135P       C:\Polarimeter\Expdata\20250723_1615_05xM_phantomdark_2\543_225_225_MES.tif
+  LCP        C:\Polarimeter\Expdata\20250723_1615_05xM_phantomdark_2\543_180_135_MES.tif
+  DARK       C:\Polarimeter\Expdata\20250723_1615_05xM_phantomdark_2\543_dark_MES.tif
+  DARK_REF   C:\Polarimeter\Expdata\20250723_1516_05xM_epi_diffuser_LP30_800umdown_REFERENCE\543_dark_REF.tif
+
+CALIB_DATE : C:\Polarimeter\CALIBRATION\20241014\05xM_543
+
