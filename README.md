@@ -16,4 +16,4 @@ Mueller_Decomp_and_Analysis- This notebook performs a Lu Chipman decomposition f
 
 Registration_and_Processing_Rotational_Data- This notebook is meant to work with various datasets taken of the same sample rotated to different angles. This includes built in functions for rotational co-registration and analysis functions to relate sample measurement orientation to polarization property value. 
 
-There is one provided image - lilcolormap2.png. This file is utilized by several of the notebooks to make a rainbow colormaps that wraps at the ends with alternate hues than those used in the matplotlib built in colormaps. 
+There is one provided image - lilcolormap2.png. This file is utilized by several of the notebooks to make a rainbow colormaps that wraps at the ends with alternate hues than those used in similar matplotlib built in colormaps. Paths will need to be updated to avoid errors.
