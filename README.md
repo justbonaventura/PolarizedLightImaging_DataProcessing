@@ -1,3 +1,4 @@
+# Polarized Light Imaging Data Processing Notebooks
 This repository contains 6 different juypeter notebooks for working with pixelwise resolved Mueller matrix data. 
 
 Among these notebooks there are a variety of Mueller matrix decomposition functions as well as data visualization and further analysis which can be done from that point. 
